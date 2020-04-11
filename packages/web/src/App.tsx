@@ -1,14 +1,3 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-
-const App = () => {
-  return (
-    <View>
-      <Text>
-        Hello from react native web 
-      </Text>
-    </View>
-  );
-}
+import App from '@wow/common';
 
 export default App;
