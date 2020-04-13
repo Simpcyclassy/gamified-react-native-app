@@ -9,12 +9,13 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "pod": "cd ios && pod install && cd ../ && react-native run-ios",
-    "symlink": "wml add ../common ./node_modules/@wow/common",
+    "add:common": "wml add ../common ./node_modules/@wow/common",
     "start:wml": "wml start"
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "wml": "^0.0.83"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -32,8 +33,7 @@
     "metro-react-native-babel-preset": "^0.58.0",
     "prettier": "^2.0.4",
     "react-test-renderer": "16.11.0",
-    "typescript": "^3.8.3",
-    "wml": "^0.0.83"
+    "typescript": "^3.8.3"
   },
   "jest": {
     "preset": "react-native",
