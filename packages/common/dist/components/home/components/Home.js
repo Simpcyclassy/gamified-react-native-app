@@ -5,12 +5,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 var react_native_1 = require("react-native");
-var react_redux_1 = require("react-redux");
 var actions_1 = require("../../router/actions");
+var react_redux_1 = require("react-redux");
 var Home = function () {
     var dispatch = react_redux_1.useDispatch();
     return (react_1.default.createElement(react_native_1.View, null,
         react_1.default.createElement(react_native_1.Text, null, "Welcome Chioma"),
-        react_1.default.createElement(react_native_1.Button, { title: "Go to quiz", onPress: function () { return dispatch(actions_1.updateTransactions("/questions")); } })));
+        react_1.default.createElement(react_native_1.Button, { title: "Go to quiz", onPress: function () { return dispatch(actions_1.updateTransactions('Questions')); } })));
 };
 exports.default = Home;

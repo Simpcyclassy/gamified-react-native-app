@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import {StyleSheet, View} from 'react-native';
 import { Provider } from 'react-redux';
 
-import store from './store';
-import Router from './components/router/components/Router'
+import store from '../../web/src/store';
+import Router from '../../web/src/components/router/components/Router'
 
 
 declare var global: {HermesInternal: null | {}};

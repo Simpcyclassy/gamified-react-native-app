@@ -1,7 +1,7 @@
 import { UPDATE_PATH } from './actionTypes';
 
 const initialState = {
-    path: '/home',
+    path: 'Home',
 };
 
 export default (state = initialState, action: any) => {

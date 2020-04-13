@@ -19,7 +19,7 @@
       "jsx": "react"
     },
     "include": [
-      "src"
+      "src", "../web/src/store", "../web/src/components"
     ]
   }
   

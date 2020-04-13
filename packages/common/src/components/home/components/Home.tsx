@@ -1,16 +1,12 @@
 import React from 'react';
 import {View, Text, Button } from 'react-native';
-import { useDispatch } from 'react-redux';
-import { updateTransactions } from '../../router/actions';
 
-
-const Home = () => {
-    const dispatch = useDispatch();
+const Home = ({ navigation }) => {
 
     return (
         <View>
             <Text>Welcome Chioma</Text>
-            <Button title="Go to quiz" onPress={() =>dispatch(updateTransactions(`/questions`))}/>
+            <Button title="Go to quiz" onPress={() => navigation.navigate('Questions')}/>
         </View>
 
     );
