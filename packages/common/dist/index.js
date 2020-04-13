@@ -14,7 +14,7 @@ var react_1 = __importStar(require("react"));
 var react_native_1 = require("react-native");
 var react_redux_1 = require("react-redux");
 var store_1 = __importDefault(require("./store"));
-var Router_1 = __importDefault(require("./Router"));
+var Router_1 = __importDefault(require("./components/router/components/Router"));
 var App = function () {
     var _a = react_1.useState(0), count = _a[0], setCount = _a[1];
     return (react_1.default.createElement(react_redux_1.Provider, { store: store_1.default },
