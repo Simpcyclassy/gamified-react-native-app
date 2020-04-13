@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* GamifiedLearningAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GamifiedLearningAppTests.m */; };
+		00E356F31AD99517003FC87E /* GamifiedReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GamifiedReactNativeTests.m */; };
+		0E234E8EA2B68523A6DEA152 /* libPods-GamifiedReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9BF6E59A8A2EA5B0791198 /* libPods-GamifiedReactNative.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D9B856B1F62458EFB3E900C /* libPods-GamifiedLearningApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F617E5078EEAE83F3228BD /* libPods-GamifiedLearningApp.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* GamifiedLearningAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GamifiedLearningAppTests.m */; };
-		33CF4DAFC31807ECC7DC0356 /* libPods-GamifiedLearningApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75703BB31A54A77A02A92121 /* libPods-GamifiedLearningApp-tvOSTests.a */; };
-		70888AF5870B828C43C8BBB4 /* libPods-GamifiedLearningApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CF58B99955C63997A4F15A /* libPods-GamifiedLearningApp-tvOS.a */; };
-		A8AFEE00780793378403B354 /* libPods-GamifiedLearningApp-GamifiedLearningAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B489B96C56C0F0D72532C2A8 /* libPods-GamifiedLearningApp-GamifiedLearningAppTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* GamifiedReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GamifiedReactNativeTests.m */; };
+		ADB41CC4F61C683A9E54E721 /* libPods-GamifiedReactNative-GamifiedReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08395CAB4F722F03557AA5FA /* libPods-GamifiedReactNative-GamifiedReactNativeTests.a */; };
+		BEDE8CB54DB566CD9BC2C8D3 /* libPods-GamifiedReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C10D0EFFE4CF0BF8702FF8E /* libPods-GamifiedReactNative-tvOSTests.a */; };
+		F0E418E03FA0E10AE782F123 /* libPods-GamifiedReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B6807D1A11D311B4E1A111 /* libPods-GamifiedReactNative-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = GamifiedLearningApp;
+			remoteInfo = GamifiedReactNative;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "GamifiedLearningApp-tvOS";
+			remoteInfo = "GamifiedReactNative-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* GamifiedLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamifiedLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* GamifiedReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamifiedReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* GamifiedLearningAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamifiedLearningAppTests.m; sourceTree = "<group>"; };
-		02985A2CDE5256BAF7501417 /* Pods-GamifiedLearningApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-tvOS/Pods-GamifiedLearningApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* GamifiedLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamifiedLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GamifiedLearningApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GamifiedLearningApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* GamifiedReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamifiedReactNativeTests.m; sourceTree = "<group>"; };
+		08395CAB4F722F03557AA5FA /* libPods-GamifiedReactNative-GamifiedReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedReactNative-GamifiedReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* GamifiedReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamifiedReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GamifiedReactNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GamifiedReactNative/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GamifiedLearningApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GamifiedLearningApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GamifiedLearningApp/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GamifiedLearningApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* GamifiedLearningApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GamifiedLearningApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52704782D5C18D3B2E254D52 /* Pods-GamifiedLearningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp.release.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp/Pods-GamifiedLearningApp.release.xcconfig"; sourceTree = "<group>"; };
-		5887566FC734669A65473423 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-GamifiedLearningAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-GamifiedLearningAppTests/Pods-GamifiedLearningApp-GamifiedLearningAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BE4F17DDD650335DEE8F8A5 /* Pods-GamifiedLearningApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-tvOS/Pods-GamifiedLearningApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5F47A118723B031DF1510EEB /* Pods-GamifiedLearningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp/Pods-GamifiedLearningApp.debug.xcconfig"; sourceTree = "<group>"; };
-		75703BB31A54A77A02A92121 /* libPods-GamifiedLearningApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedLearningApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B489B96C56C0F0D72532C2A8 /* libPods-GamifiedLearningApp-GamifiedLearningAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedLearningApp-GamifiedLearningAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F617E5078EEAE83F3228BD /* libPods-GamifiedLearningApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedLearningApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C897C23355632089FADA9805 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-GamifiedLearningAppTests.release.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-GamifiedLearningAppTests/Pods-GamifiedLearningApp-GamifiedLearningAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		CBFF368375D7FAE34C60E13D /* Pods-GamifiedLearningApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-tvOSTests/Pods-GamifiedLearningApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GamifiedReactNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GamifiedReactNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GamifiedReactNative/main.m; sourceTree = "<group>"; };
+		14B6807D1A11D311B4E1A111 /* libPods-GamifiedReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C10D0EFFE4CF0BF8702FF8E /* libPods-GamifiedReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* GamifiedReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GamifiedReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* GamifiedReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GamifiedReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		458DA30BBEBEF67404690852 /* Pods-GamifiedReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-tvOS/Pods-GamifiedReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		510F11B49E9003AF08AC82BC /* Pods-GamifiedReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-tvOSTests/Pods-GamifiedReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53249E92990C6D12368CA81A /* Pods-GamifiedReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-tvOSTests/Pods-GamifiedReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		84CE6B0346C2600ECC1846C1 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-GamifiedReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-GamifiedReactNativeTests/Pods-GamifiedReactNative-GamifiedReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A9BF6E59A8A2EA5B0791198 /* libPods-GamifiedReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB00D6C10E1B9670A9BA836A /* Pods-GamifiedReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative.release.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative/Pods-GamifiedReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		C63FBC74AE9FE4AD47FCE878 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-GamifiedReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-GamifiedReactNativeTests/Pods-GamifiedReactNative-GamifiedReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F4CF58B99955C63997A4F15A /* libPods-GamifiedLearningApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamifiedLearningApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD9D4B57EAE8EB58545D243F /* Pods-GamifiedLearningApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedLearningApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedLearningApp-tvOSTests/Pods-GamifiedLearningApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B1DB605EC4409A5011933D /* Pods-GamifiedReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative-tvOS/Pods-GamifiedReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F3EAE2771D56C0BB35E19EFF /* Pods-GamifiedReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamifiedReactNative.debug.xcconfig"; path = "Target Support Files/Pods-GamifiedReactNative/Pods-GamifiedReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8AFEE00780793378403B354 /* libPods-GamifiedLearningApp-GamifiedLearningAppTests.a in Frameworks */,
+				ADB41CC4F61C683A9E54E721 /* libPods-GamifiedReactNative-GamifiedReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9B856B1F62458EFB3E900C /* libPods-GamifiedLearningApp.a in Frameworks */,
+				0E234E8EA2B68523A6DEA152 /* libPods-GamifiedReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70888AF5870B828C43C8BBB4 /* libPods-GamifiedLearningApp-tvOS.a in Frameworks */,
+				F0E418E03FA0E10AE782F123 /* libPods-GamifiedReactNative-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CF4DAFC31807ECC7DC0356 /* libPods-GamifiedLearningApp-tvOSTests.a in Frameworks */,
+				BEDE8CB54DB566CD9BC2C8D3 /* libPods-GamifiedReactNative-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* GamifiedLearningAppTests */ = {
+		00E356EF1AD99517003FC87E /* GamifiedReactNativeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* GamifiedLearningAppTests.m */,
+				00E356F21AD99517003FC87E /* GamifiedReactNativeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = GamifiedLearningAppTests;
+			path = GamifiedReactNativeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* GamifiedLearningApp */ = {
+		13B07FAE1A68108700A75B9A /* GamifiedReactNative */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = GamifiedLearningApp;
+			name = GamifiedReactNative;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B5F617E5078EEAE83F3228BD /* libPods-GamifiedLearningApp.a */,
-				B489B96C56C0F0D72532C2A8 /* libPods-GamifiedLearningApp-GamifiedLearningAppTests.a */,
-				F4CF58B99955C63997A4F15A /* libPods-GamifiedLearningApp-tvOS.a */,
-				75703BB31A54A77A02A92121 /* libPods-GamifiedLearningApp-tvOSTests.a */,
+				9A9BF6E59A8A2EA5B0791198 /* libPods-GamifiedReactNative.a */,
+				08395CAB4F722F03557AA5FA /* libPods-GamifiedReactNative-GamifiedReactNativeTests.a */,
+				14B6807D1A11D311B4E1A111 /* libPods-GamifiedReactNative-tvOS.a */,
+				1C10D0EFFE4CF0BF8702FF8E /* libPods-GamifiedReactNative-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828015490728102C42294CD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3EAE2771D56C0BB35E19EFF /* Pods-GamifiedReactNative.debug.xcconfig */,
+				BB00D6C10E1B9670A9BA836A /* Pods-GamifiedReactNative.release.xcconfig */,
+				C63FBC74AE9FE4AD47FCE878 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.debug.xcconfig */,
+				84CE6B0346C2600ECC1846C1 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.release.xcconfig */,
+				F1B1DB605EC4409A5011933D /* Pods-GamifiedReactNative-tvOS.debug.xcconfig */,
+				458DA30BBEBEF67404690852 /* Pods-GamifiedReactNative-tvOS.release.xcconfig */,
+				510F11B49E9003AF08AC82BC /* Pods-GamifiedReactNative-tvOSTests.debug.xcconfig */,
+				53249E92990C6D12368CA81A /* Pods-GamifiedReactNative-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* GamifiedLearningApp */,
+				13B07FAE1A68108700A75B9A /* GamifiedReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* GamifiedLearningAppTests */,
+				00E356EF1AD99517003FC87E /* GamifiedReactNativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				F1D92EBF145EB31A15E9A775 /* Pods */,
+				828015490728102C42294CD2 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,38 +190,22 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* GamifiedLearningApp.app */,
-				00E356EE1AD99517003FC87E /* GamifiedLearningAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* GamifiedLearningApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* GamifiedReactNative.app */,
+				00E356EE1AD99517003FC87E /* GamifiedReactNativeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* GamifiedReactNative-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* GamifiedReactNative-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F1D92EBF145EB31A15E9A775 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F47A118723B031DF1510EEB /* Pods-GamifiedLearningApp.debug.xcconfig */,
-				52704782D5C18D3B2E254D52 /* Pods-GamifiedLearningApp.release.xcconfig */,
-				5887566FC734669A65473423 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.debug.xcconfig */,
-				C897C23355632089FADA9805 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.release.xcconfig */,
-				5BE4F17DDD650335DEE8F8A5 /* Pods-GamifiedLearningApp-tvOS.debug.xcconfig */,
-				02985A2CDE5256BAF7501417 /* Pods-GamifiedLearningApp-tvOS.release.xcconfig */,
-				FD9D4B57EAE8EB58545D243F /* Pods-GamifiedLearningApp-tvOSTests.debug.xcconfig */,
-				CBFF368375D7FAE34C60E13D /* Pods-GamifiedLearningApp-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* GamifiedLearningAppTests */ = {
+		00E356ED1AD99517003FC87E /* GamifiedReactNativeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GamifiedLearningAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GamifiedReactNativeTests" */;
 			buildPhases = (
-				DC5A7B86A201BCA45AB99FBF /* [CP] Check Pods Manifest.lock */,
+				916103F0BF445F80EF43724F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,16 +215,16 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = GamifiedLearningAppTests;
-			productName = GamifiedLearningAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* GamifiedLearningAppTests.xctest */;
+			name = GamifiedReactNativeTests;
+			productName = GamifiedReactNativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* GamifiedReactNativeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* GamifiedLearningApp */ = {
+		13B07F861A680F5B00A75B9A /* GamifiedReactNative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GamifiedLearningApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GamifiedReactNative" */;
 			buildPhases = (
-				12FCB52A2E1A6BAB9DA2931B /* [CP] Check Pods Manifest.lock */,
+				A8448923F50C92D5FD4A96A0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -235,16 +235,16 @@
 			);
 			dependencies = (
 			);
-			name = GamifiedLearningApp;
-			productName = GamifiedLearningApp;
-			productReference = 13B07F961A680F5B00A75B9A /* GamifiedLearningApp.app */;
+			name = GamifiedReactNative;
+			productName = GamifiedReactNative;
+			productReference = 13B07F961A680F5B00A75B9A /* GamifiedReactNative.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* GamifiedReactNative-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedLearningApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedReactNative-tvOS" */;
 			buildPhases = (
-				C8D9998C95F832B5671C0C19 /* [CP] Check Pods Manifest.lock */,
+				3E74D83A9F8E43C2D1C7B0A7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -255,16 +255,16 @@
 			);
 			dependencies = (
 			);
-			name = "GamifiedLearningApp-tvOS";
-			productName = "GamifiedLearningApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS.app */;
+			name = "GamifiedReactNative-tvOS";
+			productName = "GamifiedReactNative-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* GamifiedReactNative-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* GamifiedLearningApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* GamifiedReactNative-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedLearningApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedReactNative-tvOSTests" */;
 			buildPhases = (
-				2A47F8DC05E20022291205CB /* [CP] Check Pods Manifest.lock */,
+				2F41988E65BE8ABA2B7DF847 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "GamifiedLearningApp-tvOSTests";
-			productName = "GamifiedLearningApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* GamifiedLearningApp-tvOSTests.xctest */;
+			name = "GamifiedReactNative-tvOSTests";
+			productName = "GamifiedReactNative-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* GamifiedReactNative-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GamifiedLearningApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GamifiedReactNative" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* GamifiedLearningApp */,
-				00E356ED1AD99517003FC87E /* GamifiedLearningAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* GamifiedLearningApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* GamifiedReactNative */,
+				00E356ED1AD99517003FC87E /* GamifiedReactNativeTests */,
+				2D02E47A1E0B4A5D006451C7 /* GamifiedReactNative-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* GamifiedReactNative-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -375,50 +375,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		12FCB52A2E1A6BAB9DA2931B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GamifiedLearningApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A47F8DC05E20022291205CB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GamifiedLearningApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,7 +389,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		C8D9998C95F832B5671C0C19 /* [CP] Check Pods Manifest.lock */ = {
+		2F41988E65BE8ABA2B7DF847 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,14 +404,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GamifiedLearningApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GamifiedReactNative-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC5A7B86A201BCA45AB99FBF /* [CP] Check Pods Manifest.lock */ = {
+		3E74D83A9F8E43C2D1C7B0A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +426,51 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GamifiedLearningApp-GamifiedLearningAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GamifiedReactNative-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916103F0BF445F80EF43724F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GamifiedReactNative-GamifiedReactNativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8448923F50C92D5FD4A96A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GamifiedReactNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* GamifiedLearningAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* GamifiedReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* GamifiedLearningAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* GamifiedReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* GamifiedLearningApp */;
+			target = 13B07F861A680F5B00A75B9A /* GamifiedReactNative */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* GamifiedLearningApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* GamifiedReactNative-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = GamifiedLearningApp;
+			path = GamifiedReactNative;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +582,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5887566FC734669A65473423 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.debug.xcconfig */;
+			baseConfigurationReference = C63FBC74AE9FE4AD47FCE878 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = GamifiedLearningAppTests/Info.plist;
+				INFOPLIST_FILE = GamifiedReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +599,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedLearningApp.app/GamifiedLearningApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedReactNative.app/GamifiedReactNative";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C897C23355632089FADA9805 /* Pods-GamifiedLearningApp-GamifiedLearningAppTests.release.xcconfig */;
+			baseConfigurationReference = 84CE6B0346C2600ECC1846C1 /* Pods-GamifiedReactNative-GamifiedReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = GamifiedLearningAppTests/Info.plist;
+				INFOPLIST_FILE = GamifiedReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,13 +619,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedLearningApp.app/GamifiedLearningApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedReactNative.app/GamifiedReactNative";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F47A118723B031DF1510EEB /* Pods-GamifiedLearningApp.debug.xcconfig */;
+			baseConfigurationReference = F3EAE2771D56C0BB35E19EFF /* Pods-GamifiedReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = GamifiedLearningApp/Info.plist;
+				INFOPLIST_FILE = GamifiedReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -643,7 +643,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GamifiedLearningApp;
+				PRODUCT_NAME = GamifiedReactNative;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,12 +652,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52704782D5C18D3B2E254D52 /* Pods-GamifiedLearningApp.release.xcconfig */;
+			baseConfigurationReference = BB00D6C10E1B9670A9BA836A /* Pods-GamifiedReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = GamifiedLearningApp/Info.plist;
+				INFOPLIST_FILE = GamifiedReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GamifiedLearningApp;
+				PRODUCT_NAME = GamifiedReactNative;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BE4F17DDD650335DEE8F8A5 /* Pods-GamifiedLearningApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F1B1DB605EC4409A5011933D /* Pods-GamifiedReactNative-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -684,14 +684,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GamifiedLearningApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GamifiedReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedLearningApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02985A2CDE5256BAF7501417 /* Pods-GamifiedLearningApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 458DA30BBEBEF67404690852 /* Pods-GamifiedReactNative-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -712,14 +712,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GamifiedLearningApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GamifiedReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedLearningApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD9D4B57EAE8EB58545D243F /* Pods-GamifiedLearningApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 510F11B49E9003AF08AC82BC /* Pods-GamifiedReactNative-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -739,24 +739,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GamifiedLearningApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GamifiedReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedLearningApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedLearningApp-tvOS.app/GamifiedLearningApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedReactNative-tvOS.app/GamifiedReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBFF368375D7FAE34C60E13D /* Pods-GamifiedLearningApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 53249E92990C6D12368CA81A /* Pods-GamifiedReactNative-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -766,17 +766,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "GamifiedLearningApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GamifiedReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedLearningApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GamifiedReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedLearningApp-tvOS.app/GamifiedLearningApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamifiedReactNative-tvOS.app/GamifiedReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GamifiedLearningAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GamifiedReactNativeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GamifiedLearningApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GamifiedReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedLearningApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedReactNative-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedLearningApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GamifiedReactNative-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GamifiedLearningApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GamifiedReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
