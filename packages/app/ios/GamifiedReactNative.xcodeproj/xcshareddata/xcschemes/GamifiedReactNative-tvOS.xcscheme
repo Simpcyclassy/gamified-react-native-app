@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "GamifiedLearningApp-tvOS.app"
-               BlueprintName = "GamifiedLearningApp-tvOS"
-               ReferencedContainer = "container:GamifiedLearningApp.xcodeproj">
+               BuildableName = "GamifiedReactNative-tvOS.app"
+               BlueprintName = "GamifiedReactNative-tvOS"
+               ReferencedContainer = "container:GamifiedReactNative.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "GamifiedLearningApp-tvOSTests.xctest"
-               BlueprintName = "GamifiedLearningApp-tvOSTests"
-               ReferencedContainer = "container:GamifiedLearningApp.xcodeproj">
+               BuildableName = "GamifiedReactNative-tvOSTests.xctest"
+               BlueprintName = "GamifiedReactNative-tvOSTests"
+               ReferencedContainer = "container:GamifiedReactNative.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "GamifiedLearningApp-tvOS.app"
-            BlueprintName = "GamifiedLearningApp-tvOS"
-            ReferencedContainer = "container:GamifiedLearningApp.xcodeproj">
+            BuildableName = "GamifiedReactNative-tvOS.app"
+            BlueprintName = "GamifiedReactNative-tvOS"
+            ReferencedContainer = "container:GamifiedReactNative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "GamifiedLearningApp-tvOS.app"
-            BlueprintName = "GamifiedLearningApp-tvOS"
-            ReferencedContainer = "container:GamifiedLearningApp.xcodeproj">
+            BuildableName = "GamifiedReactNative-tvOS.app"
+            BlueprintName = "GamifiedReactNative-tvOS"
+            ReferencedContainer = "container:GamifiedReactNative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
